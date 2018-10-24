@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body, html {
+  width: 1600px;
+  margin: 0 auto;
+}
+
+/*Header*/
+
+.header, .main-menu {
+  margin: 0 auto;
+}
+
+.header-menu {
+  width: 100%;
+  height: 945px;
+  background-blend-mode: darken;
+  background: rgba(0,0,0,0.7) url(../images/header-bg.gif) no-repeat;
+}
+
+.header-logo {
+  background: url(../images/logo.png) no-repeat;
+  float: left;
+  width: 161px;
+  height: 48px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.header-top-container {
+  margin: 0 auto;
+  border-bottom: 1px solid #2F2E33;
+  height: 90px;
+  width: 1200px;
+}
+
+.nav {
+  border: 1px solid transparent;
+  justify-content: flex-end;
+  display: flex;
+}
+
+.nav-link {
+  margin-right: 66px;
+  text-align: center;
+  font: 16px 'Lato', sans-serif;
+
+  padding-top: 20px;
+  padding-bottom: 33px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid #fff;
+  color: #E84C3D;
+}
+
+.nav-link:last-child {
+  margin-right: 0;
+}
+
+
+
+/*Section Home*/
+
+.home-container {
+  text-align: center;
+  position: relative;
+  left: 1px;
+  top: 258px;
+}
+
+.home-h2 {
+  font: 72px 'Lato', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.home-txt {
+  font: 32px 'Georgia', sans-serif;
+  font-style: italic;
+  margin: 18px auto;
+  line-height: 29px;
+  color: #fff;
+}
+
+
+/*End of Section Home*/
+
+/*Section of Register*/
+
+.registration {
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  background-color: #2FAC6C;
+}
+
+.login-btn {
+  position: absolute;
+  height: 120px;
+  float: left;
+  width: 53.7%;
+  background: #21424A;
+}
+
+.register-btn {
+  height: 120px;
+  width: 50.3%;
+  float: right;
+  background: #2FAC6C;
+  transform: skewX(-13deg);
+}
+
+.register-link, .login-link {
+  position: relative;
+  top: 47px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font: 20px 'Lato', sans-serif;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.register-btn a:first-child {
+  right: 96px;
+  transform: skewX(13deg);
+}
+
+.login-link {
+  left: 75px;
+}
+
+.login-link:hover {
+  color: #4E9CAF;
+}
+
+.register-link:hover {
+  color: #8FFCC4;
+}
+
+/*End Section of Register*/
+
+/*End of Header*/
+
+.prices {
+  height: 495px;
+  border: 1px solid red;
+}
+
+.prices-h3 {
+  margin-top: 84px;
+  text-align: center;
+  font: 24px 'Lato', sans-serif;
+  font-weight: 700;
+  word-spacing: 3px;
+}
+
+.prices-txt {
+  color: #D9D9D9;
+  margin-top: 9px;
+  margin-bottom: 45px;
+  text-align: center;
+  font: 16px 'Montserrat', sans-serif;
+}
+
+.domain-search {
+  font-family: 'Lato', sans-serif;
+  margin: 0 auto;
+  height: 50px;
+  width: 890px;
+  border: 1px solid #D9D9D9;
+  margin-bottom: 40px;
+}
+
+.domain-www {
+  color: #D6D6D6;
+  font-size: 15px;
+  border-right: 1px solid #D9D9D9;
+  padding: 6px 17px;
+  text-align: center;
+}
+
+.domain-input {
+  width: 690px;
+  font-size: 15px;
+  padding: 15px 18px;
+  border: none;
+}
+
+.domain-select {
+  padding: 6px 6px;
+  color: #D6D6D6;
+  font-size: 16px;
+  width: 70px;
+  border: none;
+  border-left: 1px solid #D9D9D9;
+}
+
+.domain-price {
+  font: 14px "Lato", sans-serif;
+  padding-top: 25px;
+  text-align: center;
+  display: block;
+  border: 1px solid #D9D9D9;
+  margin: 0 auto;
+  width: 890px;
+  height: 170px;
+}
+
+.domain-table {
+  font: 15px "Lato", sans-serif;
+  width: 100%;
+  height: 170px;
+}
+
+.table-row {
+  margin: 0 15px;
+  display: flex;  
+}
+
+.table-data {
+  padding: 24px 40px;
+  width: 14%;
+
+  border-bottom: 1px solid red;
+  border-right: 1px solid red;
+}
+
+
+
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  height: 50px;
+}
+
+/* END Footer */
